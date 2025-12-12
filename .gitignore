@@ -1,0 +1,69 @@
+# --- ENVIRONNEMENTS PYTHON ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda
+conda-env/
+*.conda
+*.yaml
+
+# --- NOTEBOOKS & TEMP FILES ---
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+
+# --- DONNÉES À NE PAS PUSH ---
+# CSV, Parquet, Pickle, NPY, modèles, etc.
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.joblib
+
+# --- DOSSIERS MODELS ---
+models/
+model/
+saved_models/
+checkpoints/
+weights/
+
+# --- LOGS ET TRACKING ---
+logs/
+mlruns/
+mlflow/
+wandb/
+*.log
+
+# --- FAISS & EMBEDDINGS ---
+embeddings/
+*embeddings*.npy
+faiss_index/
+*.index
+
+# --- STREAMLIT & FICHIERS FRONT ---
+streamlit/cache/
+.streamlit/
+
+# --- CONFIG DEV LOCALE ---
+*.env
+.env.local
+.env.*.local
+
+# --- OUTILS OS ---
+.DS_Store
+Thumbs.db
+
+# --- PYTHON BUILD ---
+build/
+dist/
+*.egg-info/
+.eggs/
